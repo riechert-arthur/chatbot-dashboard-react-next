@@ -1,3 +1,6 @@
+# Chatbot Dashboard in React & Next
+A basic chatbot interface with a dashboard for managing token usage and settings, built using the React and Next.jsframeworks. Data persistence and vector search is implemented with MongoDB.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
