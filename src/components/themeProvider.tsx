@@ -12,7 +12,7 @@ const DARK_THEME: string = `bg-body-gradient bg-cover ${ montserrat.className } 
 
 export default function ThemeProvider({ children }: { children: ReactNode }): ReactElement {
     return (
-        <div className={ "min-h-screen " + DARK_THEME }>
+        <div className={ "flex flex-col min-h-screen " + DARK_THEME }>
             { children }
         </div>
     )

@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+
 import ChatFormSubmitButton from "./chatFormSubmitButton";
 
 /**
@@ -10,8 +11,8 @@ import ChatFormSubmitButton from "./chatFormSubmitButton";
 
 export default function ChatForm(): ReactElement {
     return (
-        <form className="flex p-3 justify-between items-center border border-white/20 rounded-xl">
-            <textarea className="w-full h-fit bg-transparent outline-none caret-opacity-100" placeholder="Can you help me..." name="userMessage" />
+        <form className="flex p-3 justify-between items-end border border-white/20 rounded-xl">
+            <textarea className="w-full h-7 bg-transparent outline-none caret-opacity-100" placeholder="Can you help me..." name="userMessage" />
             <ChatFormSubmitButton />
         </form>
     )
