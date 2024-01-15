@@ -19,10 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="min-h-screen">
         <ThemeProvider>
           <NavBar />
-          {children}
+          <main className="h-full">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

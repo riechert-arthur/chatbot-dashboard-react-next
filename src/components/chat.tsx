@@ -1,4 +1,5 @@
-import { ReactElement, ReactSVGElement } from "react";
+import { ReactElement } from "react";
+import ChatForm from "./chatForm";
 
 /**
  * Aggregates all chat components into a single, main component.
@@ -8,6 +9,9 @@ import { ReactElement, ReactSVGElement } from "react";
  */
 export default function Chat(): ReactElement {
     return (
-        <div></div>
+        <div className="flex flex-col w-full h-[32rem] justify-between">
+            <h1 className="text-2xl">Personal Assistant</h1>
+            <ChatForm />
+        </div>
     );
 }

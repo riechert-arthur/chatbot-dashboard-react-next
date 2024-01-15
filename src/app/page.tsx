@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Chat from "@/components/chat";
 
 export default function Home() {
   return (
-    <div>
-      Hello
+    <div className="p-12 min-h-screen">
+      <Chat />
     </div>
   )
 }
